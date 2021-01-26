@@ -14,6 +14,9 @@ use Sylius\Component\Product\Model\ProductTranslationInterface;
  */
 class Product extends BaseProduct
 {
+    /**
+     * @ORM\Column(type="string", length=30, nullable=true)
+     */
     private $color;
 
     /**

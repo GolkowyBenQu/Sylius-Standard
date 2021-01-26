@@ -16,12 +16,12 @@ doctrine:
         auto_generate_proxy_classes: '%kernel.debug%'
         auto_mapping: true
         mappings:
-            ExtendedApp:
-                is_bundle: false
-                type: yml
-                dir: '%kernel.project_dir%/doctrine'
-                prefix: 'App\Entity'
-                alias: ExtendedApp
+#            App:
+#                is_bundle: false
+#                type: xml
+#                dir: '%kernel.project_dir%/doctrine'
+#                prefix: 'App\Entity'
+#                alias: App
             App:
                 is_bundle: false
                 type: annotation
